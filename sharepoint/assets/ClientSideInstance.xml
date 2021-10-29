@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="EncabezadoSubastas"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="4e106627-ce9f-4cc8-b817-0ce2fd0c138a"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

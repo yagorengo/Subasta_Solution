@@ -1,0 +1,14 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.carruselSubastas {
+  background-color:rgb(255, 249, 249);
+  border: 1px solid rgb(237, 235, 233);
+  .carouselContainer{
+    height:400px !important;
+    
+  }
+  .carouselContent {  
+    height: 300px !important;  
+  }  
+  
+}

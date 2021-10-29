@@ -1,0 +1,36 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ofertarComponent {
+    .card {
+      max-width: 100%;
+      background-color:rgb(255, 249, 249);
+    }
+    .modelo{
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .marca{
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .precio{
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .label {
+      font-size: 18px;
+      margin: 10px;
+    }
+    .divButtons{
+      margin: 5px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+    }
+
+}

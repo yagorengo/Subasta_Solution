@@ -1,0 +1,20 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.app {
+ 
+      height:50px;
+      text-align:center;
+      line-height:2.5;
+      display: flex;
+      align-items: center;
+ 
+      .products {
+          display: flex;
+    }
+    .terms{
+        display: flex;
+    }
+    .offer{
+        display: flex;
+    }
+}

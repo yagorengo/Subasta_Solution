@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "encabezado-subastas-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/encabezadoSubastas/EncabezadoSubastasApplicationCustomizer.js",
+          "manifest": "./src/extensions/encabezadoSubastas/EncabezadoSubastasApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "productos-a-subastar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/productosASubastar/ProductosASubastarWebPart.js",
+          "manifest": "./src/webparts/productosASubastar/ProductosASubastarWebPart.manifest.json"
+        }
+      ]
+    },
+    "carrusel-subastas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carruselSubastas/CarruselSubastasWebPart.js",
+          "manifest": "./src/webparts/carruselSubastas/CarruselSubastasWebPart.manifest.json"
+        }
+      ]
+    },
+    "ofertar-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ofertarComponent/OfertarComponentWebPart.js",
+          "manifest": "./src/webparts/ofertarComponent/OfertarComponentWebPart.manifest.json"
+        }
+      ]
+    },
+    "apertura-de-sobres-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aperturaDeSobres/AperturaDeSobresWebPart.js",
+          "manifest": "./src/webparts/aperturaDeSobres/AperturaDeSobresWebPart.manifest.json"
+        }
+      ]
+    },
+    "offer-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/offerView/OfferViewWebPart.js",
+          "manifest": "./src/webparts/offerView/OfferViewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EncabezadoSubastasApplicationCustomizerStrings": "lib/extensions/encabezadoSubastas/loc/{locale}.js",
+    "ProductosASubastarWebPartStrings": "lib/webparts/productosASubastar/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "CarruselSubastasWebPartStrings": "lib/webparts/carruselSubastas/loc/{locale}.js",
+    "OfertarComponentWebPartStrings": "lib/webparts/ofertarComponent/loc/{locale}.js",
+    "AperturaDeSobresWebPartStrings": "lib/webparts/aperturaDeSobres/loc/{locale}.js",
+    "OfferViewWebPartStrings": "lib/webparts/offerView/loc/{locale}.js"
+  }
+}
